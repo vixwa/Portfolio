@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viswa N Padmanabhan - Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="smoothScroll" href="#welcome"><img id="btt" class="img-responsive" src="./assets/pngwing.com.png" alt="Back to top"></a>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a class="smoothScroll" href="#welcome" onclick="closeNav()">Home</a>
+            <a class="smoothScroll" href="#about" onclick="closeNav()">About</a>
+            <a class="smoothScroll" href="#portfolio" onclick="closeNav()">Portfolio</a>
+        </div>
+    </div>
+
+    <span id="openmenu" onclick="openNav()"><b>Menu</b></span>
+
+    <div id="welcome">
+        <h1>Viswa N Padmanabhan</h1>
+        <h3><b>Engineering Student</b></h3>
+        <a class="smoothScroll" href="#about"><img id="press" src="./assets/down.png" alt="Scroll down"></a>
+    </div>
+
+    <div id="about">
+        <h1>About Me</h1>
+        <p>Engineering 4th year student looking for an internship or jobs for exposure and to practically implement the concepts I have learnt until now by understanding of the different types of opportunities available.</p>
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Quick learner</li>
+                <li>Effective Communication</li>
+                <li>Hardworking</li>
+                <li>Team player</li>
+                <li>Effective in programming languages like Python and C</li>
+                <li>Proficient in concepts like DBMS, OS and Computer Networks</li>
+            </ul>
+        </div>
+        <div id="Certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>NPTEL - Database Management</li>
+                <li>NPTEL - Python programming</li>
+                <li>MongoDB Certification</li>
+            </ul>
+        </div>
+        <div id="contact">
+            <span id="email">
+                <img src="./assets/email.png" alt="Email"> viswanp0001@gmail.com
+            </span>
+            <span id="github">
+                <a href="https://github.com/vixwa" target="_blank">
+                    <img src="./assets/git.png" alt="GitHub"> GitHub Profile
+                </a>
+            </span>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <h1>Portfolio</h1>
+        <h3>Here are some projects I've worked on!</h3>
+        <div id="port" class="container">
+            <div class="project">
+                <h2>Personal blogger website</h2>
+                <p>Web development mini project</p>
+                <a href="https://viswablog.netlify.app/" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h2>Crud application</h2>
+                <p>Understanding the working of backend</p>
+            </div>
+            <div class="project">
+                <h2>Expense tracker website</h2>
+                <p>Web development mini project using ReactJS</p>
+                <a href="https://viswaexpense.netlify.app/" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h2>Health tracker website</h2>
+                <p>Web development mini project using AngularJS</p>
+                <a href="https://healthtrackerfyle.netlify.app" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
